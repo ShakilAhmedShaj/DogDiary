@@ -11,6 +11,11 @@ import com.shajt3ch.dogdiary.model.DogBreed;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by SHAJ on 01 Dec, 2019.
+ * shakilahmedshaj@gmail.com
+ */
+
 public class ListViewModel extends AndroidViewModel {
 
     public MutableLiveData<List<DogBreed>> dogs = new MutableLiveData<List<DogBreed>>();
